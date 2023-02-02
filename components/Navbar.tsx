@@ -18,6 +18,7 @@ const Navbar = () => {
     <Flex>
       <Flex
         pos="fixed"
+        zIndex={10}
         alignItems={"center"}
         w="100%"
         px="10"
