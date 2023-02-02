@@ -1,16 +1,12 @@
 "use client";
 import {
-  Switch,
-  Icon,
   Flex,
   Button,
   IconButton,
-  Text,
   Box,
 } from "@chakra-ui/react";
-import { useState } from "react";
-import { HamburgerIcon, CloseIcon, EmailIcon } from "@chakra-ui/icons";
-import { FaMapMarker, FaCartPlus } from "react-icons/fa";
+import { useState } from "react";  
+import { HamburgerIcon, CloseIcon} from "@chakra-ui/icons";
 import NextLink from "next/link";
 import Image from "next/image";
 import Logo from "../assets/logo.png";
