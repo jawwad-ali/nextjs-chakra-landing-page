@@ -31,9 +31,9 @@ const HeroSection = () => {
         mb={{ base: 5, md: 5, lg: 0 }}
       >
         <Heading as="h1" color="#276749">
-          <Center className={inter.className}>
+          <Text className={inter.className}>
             Build this rad landing page from scratch
-          </Center>
+          </Text>
         </Heading>
         <Text pt="5" color="#718096" className={inter.className}>
           This is the subheader section where you describe the basic benefits of
