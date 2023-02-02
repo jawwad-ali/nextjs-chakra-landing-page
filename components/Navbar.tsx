@@ -25,9 +25,9 @@ const Navbar = () => {
         justifyContent={"space-between"}
       >
         {/* Logo */}
-        <Box display={{ sm: "none", lg: "flex" }} width={"100%"}>
+        <Box display={{ base: "none", lg: "flex" }} width={"100%"}>
           <Image src={Logo} height={50} width={50} alt="Logo" />
-        </Box>
+        </Box> 
 
         {/* Items */}
         <Flex
